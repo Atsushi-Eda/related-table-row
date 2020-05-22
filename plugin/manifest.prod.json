@@ -1,0 +1,25 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "ja": "関連サブテーブル行一覧プラグイン",
+    "en": "related table row plugin"
+  },
+  "description": {
+    "ja": "レコード詳細画面に「条件に一致したサブテーブルの行」を一覧表示できる機能です。",
+    "en": "This is a function that lists rows of subtable which meet the condition specified, in the Record Details screen."
+  },
+  "icon": "icon.png",
+  "desktop": {
+    "js": [
+      "desktop.min.js"
+    ]
+  },
+  "config": {
+    "html": "config.html",
+    "js": [
+      "config.min.js"
+    ]
+  }
+}

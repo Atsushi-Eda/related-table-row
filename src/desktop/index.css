@@ -1,0 +1,6 @@
+.kuc-table-td {
+  min-width: 120px;
+}
+.kuc-table-td:first-child {
+  min-width: 60px;
+}
