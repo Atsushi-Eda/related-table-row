@@ -36,7 +36,7 @@ import './index.css';
         space.appendChild(domRoot);
         ReactDOM.render(
           <div>
-            <Label text={app.name} />
+            <Label text={`${app.name} - ${properties[referenceTable.subTable].label}`} />
             <Table
               columns={[
                 {
